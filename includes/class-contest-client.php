@@ -3,7 +3,7 @@
 defined( 'ABSPATH' ) || exit;
 
 final class OICS_Contest_Client {
-	const DATA_URL      = 'https://raw.githubusercontent.com/hanyixuanten/OI-contest-fetch/master/contests_all.json';
+	const DATA_URL      = 'https://raw.githubusercontent.com/Vb-Lg/OI-contest-fetch/master/contests_all.json';
 	const TRANSIENT_KEY = 'oics_contest_payload_v1';
 	const CACHE_TTL     = 5 * MINUTE_IN_SECONDS;
 
